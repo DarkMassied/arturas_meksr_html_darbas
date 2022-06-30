@@ -1,0 +1,30 @@
+.purpa {
+  color: hotpink;
+}
+
+header {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lef {
+  display: flex;
+}
+
+.lef p {
+  padding: 0.5rem;
+}
+
+.sectorank {
+  display: flex;
+  padding-left: 80px;
+}
+
+.sectorank h1 {
+  font-size: 4pc;
+}
+
+.sectorank img {
+  width: 60%;
+}/*# sourceMappingURL=main.css.map */
