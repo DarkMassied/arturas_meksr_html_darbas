@@ -67,11 +67,12 @@ margin-bottom: 0;
 // freensp
 .freensp{
     border: 0.3pt solid rgb(11, 180, 11);
-    border-radius: 18px;
-    width: 1280px;
-    height: 320px;
-    background-image:url(/assets/background.svg) ;
+    border-radius: 37px;
+
     
+ 
+    background-image:url(/assets/background.svg) ;
+     height: 320px;
 
 
 }
@@ -80,8 +81,8 @@ margin-bottom: 0;
   
     padding-left: 15px;
     padding-right:50px;
-    padding-bottom: 50px;
-    padding-top: 150px;
+    padding-bottom: 30px;
+    padding-top: 120px;
 }
 .darttext h2{
     font-size: 27px;
@@ -175,7 +176,10 @@ margin-bottom: 0;
 
 // boxtext
 .boxtext{
-    display: grid;
+    display: flex;
+    justify-content: flex-end;
+    margin: 15px;
+   
 }
 // textcol
 .textcol{
@@ -187,16 +191,19 @@ margin-bottom: 0;
 // textrow
 .textrow{
     display: flex;
+    padding: 15px;
 }
 // a
 .truecola{
     display: grid;
+    padding: 15px;
 }
 // a
 
 // b
 .truecolb{
     display: grid;
+    padding: 15px;
 }
 // b
 
@@ -204,6 +211,7 @@ margin-bottom: 0;
 .truecolc{
     display: flex;
     flex-direction: column;
+    padding: 15px;
 }
 // c
 
@@ -211,6 +219,7 @@ margin-bottom: 0;
 .truecold{
     display: flex;
     flex-direction: column;
+    padding: 15px;
 }
 // d
 

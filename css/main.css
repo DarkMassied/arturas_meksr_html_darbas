@@ -1,3 +1,19 @@
+@media only screen and (max-width: 1280px) {
+  body {
+    margin-left: 80px;
+  }
+
+  .freensp {
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .freensp {
+    background-repeat: no-repeat;
+    background-size: 1000%;
+  }
+}
 .truecola h3 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
@@ -95,17 +111,16 @@ header {
 
 .freensp {
   border: 0.3pt solid rgb(11, 180, 11);
-  border-radius: 18px;
-  width: 1280px;
-  height: 320px;
+  border-radius: 37px;
   background-image: url(/assets/background.svg);
+  height: 320px;
 }
 
 .darttext {
   padding-left: 15px;
   padding-right: 50px;
-  padding-bottom: 50px;
-  padding-top: 150px;
+  padding-bottom: 30px;
+  padding-top: 120px;
 }
 
 .darttext h2 {
@@ -165,7 +180,9 @@ header {
 }
 
 .boxtext {
-  display: grid;
+  display: flex;
+  justify-content: flex-end;
+  margin: 15px;
 }
 
 .textcol {
@@ -175,22 +192,27 @@ header {
 
 .textrow {
   display: flex;
+  padding: 15px;
 }
 
 .truecola {
   display: grid;
+  padding: 15px;
 }
 
 .truecolb {
   display: grid;
+  padding: 15px;
 }
 
 .truecolc {
   display: flex;
   flex-direction: column;
+  padding: 15px;
 }
 
 .truecold {
   display: flex;
   flex-direction: column;
+  padding: 15px;
 }/*# sourceMappingURL=main.css.map */

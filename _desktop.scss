@@ -1,0 +1,28 @@
+@media only screen and (max-width:1280px)
+{
+    body{
+        margin-left:80px;
+    } 
+    .freensp{
+        background-repeat: no-repeat ;
+ 
+         background-size: 100%;
+       
+     }
+}
+
+
+
+@media only screen and (max-width:480px){
+
+    body{
+        
+    }
+    .freensp{
+       background-repeat: no-repeat ;
+
+        background-size: 1000%;
+      
+    }
+
+}
