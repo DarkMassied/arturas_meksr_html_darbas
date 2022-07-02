@@ -1,5 +1,8 @@
 @import 'desktop';
 @import 'mobile';
+@import 'hover';
+@import 'nomargin';
+@import 'drowlingbuttonofhate';
 body{
     font-family: 'Inter', sans-serif;
 // padding-left: 80px;
@@ -47,23 +50,15 @@ flex-direction: column;
 }
 .conta h1{
     font-size: 90px ;
-
+margin-top: 0;
+margin-bottom: 0;
 }
 
 .drowingbotton{
-     background-color: white;
-    width: 180px;
-    height: 75px;
-    font-size: 21px;
-    margin: 4px 2px;
-
-  border: 10px solid transparent;
-  border-image: url(/assets/background.svg)  20% stretch; 
-  border-radius: 50%;
-
-
-
-
+     width: 168px;
+     height: 43px;
+     background-color:white ;
+  
 }
 
 
@@ -76,13 +71,15 @@ flex-direction: column;
     width: 1280px;
     height: 320px;
     background-image:url(/assets/background.svg) ;
+    
 
 
 }
 // dark text
 .darttext{
   
-    padding-right: 50px;
+    padding-left: 15px;
+    padding-right:50px;
     padding-bottom: 50px;
     padding-top: 150px;
 }
@@ -151,9 +148,21 @@ flex-direction: column;
 // sectornftaksot 
 
 //  borda-text 
+.borda-text{
+    border-top: 4px solid rgb(248, 247, 247);
+    display: flex;
+    border-bottom: 4px solid rgb(248, 247, 247);
+  
+}
+.borda-text .conta{
+    display: flex;
+    margin-right: 18rem;
+}
 .borda-text img{
+
     width: 200px;
     height: 465px;
+
 
 }
 //  borda-text
@@ -165,27 +174,44 @@ flex-direction: column;
 // imglogo
 
 // boxtext
-
+.boxtext{
+    display: grid;
+}
 // textcol
-
+.textcol{
+    display: flex;
+    color: red;
+}
 // textcol
 
 // textrow
-
+.textrow{
+    display: flex;
+}
 // a
-
+.truecola{
+    display: grid;
+}
 // a
 
 // b
-
+.truecolb{
+    display: grid;
+}
 // b
 
 // c
-
+.truecolc{
+    display: flex;
+    flex-direction: column;
+}
 // c
 
 // d
-
+.truecold{
+    display: flex;
+    flex-direction: column;
+}
 // d
 
 // textrow
