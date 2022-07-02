@@ -1,9 +1,16 @@
+body {
+  font-family: "Inter", sans-serif;
+}
+
 .purpa {
   color: hotpink;
 }
 
+.goldtaxot {
+  color: orangered;
+}
+
 header {
-  padding: 2rem;
   display: flex;
   justify-content: space-between;
 }
@@ -18,7 +25,6 @@ header {
 
 .sectorank {
   display: flex;
-  padding-left: 80px;
 }
 
 .sectorank h1 {
@@ -26,5 +32,84 @@ header {
 }
 
 .sectorank img {
-  width: 60%;
+  width: 57%;
+}
+
+.conta {
+  display: flex;
+  flex-direction: column;
+}
+
+.conta h1 {
+  font-size: 90px;
+}
+
+.drowingbotton {
+  background-color: white;
+  width: 180px;
+  height: 75px;
+  font-size: 21px;
+  margin: 4px 2px;
+  border: 10px solid transparent;
+  border-image: url(/assets/background.svg) 20% stretch;
+  border-radius: 50%;
+}
+
+.freensp {
+  border: 0.3pt solid rgb(11, 180, 11);
+  border-radius: 18px;
+  width: 1280px;
+  height: 320px;
+  background-image: url(/assets/background.svg);
+}
+
+.darttext {
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-top: 150px;
+}
+
+.darttext h2 {
+  font-size: 27px;
+}
+
+.borda {
+  display: flex;
+  padding: 5rem;
+  padding-left: 0;
+  justify-content: space-between;
+}
+
+.nftbad {
+  display: flex;
+}
+
+.canca {
+  padding: 2rem;
+}
+
+.textorex {
+  display: grid;
+  background-color: rgb(241, 237, 237);
+  border-radius: 18px;
+}
+
+.up {
+  display: flex;
+  justify-content: space-around;
+}
+
+.midd {
+  display: flex;
+  justify-content: space-around;
+}
+
+.dawn {
+  display: flex;
+  justify-content: space-around;
+}
+
+.borda-text img {
+  width: 200px;
+  height: 465px;
 }/*# sourceMappingURL=main.css.map */
