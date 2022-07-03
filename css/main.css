@@ -1,19 +1,182 @@
-@media only screen and (max-width: 1280px) {
+@media only screen and (min-width: 1280px) {
   body {
     margin-left: 80px;
   }
 
+  .lef {
+    margin-right: 7%;
+  }
+
   .freensp {
-    background-repeat: no-repeat;
+    border: 0.3pt solid rgb(11, 180, 11);
+    border-radius: 37px;
+    background-position: 50%;
     background-size: 100%;
-  }
-}
-@media only screen and (max-width: 480px) {
-  .freensp {
     background-repeat: no-repeat;
-    background-size: 1000%;
+    height: 320px;
+  }
+
+  .borda {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 4%;
+  }
+
+  .borda-text {
+    border-top: 4px solid rgb(248, 247, 247);
+    display: flex;
+    border-bottom: 4px solid rgb(248, 247, 247);
+  }
+
+  .borda-text .conta {
+    display: flex;
+    margin-right: 18rem;
+  }
+
+  .sectorank h1 {
+    font-size: 4pc;
+  }
+
+  .boxtext {
+    display: flex;
+    margin-right: 3%;
+    justify-content: flex-end;
+  }
+
+  .textrow {
+    display: flex;
+    padding: 15px;
+  }
+
+  footer {
+    justify-content: space-between;
+    margin-right: 4%;
   }
 }
+@media only screen and (max-width: 600px) {
+  body {
+    margin-left: 5px;
+  }
+
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .conta {
+    margin-right: 5rem;
+    margin-bottom: 1rem;
+  }
+
+  .conta h1 {
+    font-size: 47px;
+  }
+
+  .freensp {
+    margin-left: -5px;
+    margin-right: -150px;
+    border: 0.3pt solid rgb(11, 180, 11);
+    border-radius: 0;
+    background-repeat: no-repeat;
+    background: center;
+    background-size: auto;
+    height: auto;
+  }
+
+  .borda {
+    display: grid;
+    margin: 1.5rem;
+    justify-items: center;
+    justify-content: space-evenly;
+    grid-template-columns: auto auto;
+  }
+
+  .borda-text {
+    margin-left: 0.5rem;
+    border: 5px solid lightgreen;
+  }
+
+  .borda-text .conta {
+    display: flex;
+    margin-right: 1.5rem;
+  }
+
+  .borda img {
+    margin: 0.2rem;
+  }
+
+  .sectorank img {
+    margin: -5rem;
+  }
+
+  .sectorank h1 {
+    font-size: 3rem;
+  }
+
+  .boxtext {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .textrow {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+  footer {
+    margin: 1rem;
+    justify-content: space-around;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .conta h1 {
+    font-size: 80px;
+  }
+
+  .lef {
+    margin-right: 7%;
+  }
+}
+.darttext p {
+  color: black;
+}
+
+h4 {
+  color: gray;
+}
+
+h3 {
+  color: gray;
+}
+
+p {
+  color: grey;
+}
+
+.conta p {
+  color: black;
+}
+
+.darttext p {
+  color: black;
+}
+
+.sectornftaksot p {
+  color: black;
+}
+
+.sectornftaksot span {
+  border-bottom: 1px solid black;
+}
+
+.midd h3 {
+  color: black;
+}
+
+.textcol {
+  color: black;
+}
+
 .truecola h3 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
@@ -55,8 +218,22 @@
   border-radius: 16px;
 }
 
+* {
+  outline: solid 1px red;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
 body {
   font-family: "Inter", sans-serif;
+}
+
+header p {
+  color: black;
 }
 
 .purpa {
@@ -64,7 +241,7 @@ body {
 }
 
 .goldtaxot {
-  color: orangered;
+  color: orange;
 }
 
 header {
@@ -84,10 +261,6 @@ header {
   display: flex;
 }
 
-.sectorank h1 {
-  font-size: 4pc;
-}
-
 .sectorank img {
   width: 57%;
 }
@@ -98,7 +271,6 @@ header {
 }
 
 .conta h1 {
-  font-size: 90px;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -110,10 +282,7 @@ header {
 }
 
 .freensp {
-  border: 0.3pt solid rgb(11, 180, 11);
-  border-radius: 37px;
   background-image: url(/assets/background.svg);
-  height: 320px;
 }
 
 .darttext {
@@ -125,13 +294,6 @@ header {
 
 .darttext h2 {
   font-size: 27px;
-}
-
-.borda {
-  display: flex;
-  padding: 5rem;
-  padding-left: 0;
-  justify-content: space-between;
 }
 
 .nftbad {
@@ -154,8 +316,15 @@ header {
 }
 
 .midd {
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+  align-items: center;
+  justify-items: center;
+}
+
+.midd img {
+  margin-left: 104%;
 }
 
 .dawn {
@@ -164,14 +333,7 @@ header {
 }
 
 .borda-text {
-  border-top: 4px solid rgb(248, 247, 247);
   display: flex;
-  border-bottom: 4px solid rgb(248, 247, 247);
-}
-
-.borda-text .conta {
-  display: flex;
-  margin-right: 18rem;
 }
 
 .borda-text img {
@@ -179,20 +341,8 @@ header {
   height: 465px;
 }
 
-.boxtext {
-  display: flex;
-  justify-content: flex-end;
-  margin: 15px;
-}
-
 .textcol {
   display: flex;
-  color: red;
-}
-
-.textrow {
-  display: flex;
-  padding: 15px;
 }
 
 .truecola {
@@ -215,4 +365,8 @@ header {
   display: flex;
   flex-direction: column;
   padding: 15px;
+}
+
+footer {
+  display: flex;
 }/*# sourceMappingURL=main.css.map */

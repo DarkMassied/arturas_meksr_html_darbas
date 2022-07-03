@@ -1,28 +1,134 @@
-@media only screen and (max-width:1280px)
+@media only screen and (min-width:1280px)
 {
+
+
     body{
         margin-left:80px;
     } 
-    .freensp{
-        background-repeat: no-repeat ;
- 
-         background-size: 100%;
+
+    .lef{
+       margin-right: 7%;
+    //    Фиксированый процент 
+       
+    }
+    .freensp{ 
+        border: 0.3pt solid rgb(11, 180, 11);
+        border-radius: 37px;
+        background-position: 50%;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 320px;
        
      }
+     .borda{
+        display: flex;
+        justify-content: space-between;
+        margin-right: 4%;
+       
+    }
+    .borda-text{
+      
+        border-top: 4px solid rgb(248, 247, 247);
+        display: flex;
+        border-bottom: 4px solid rgb(248, 247, 247);
+      
+    }
+    .borda-text .conta{
+        display: flex;
+        margin-right: 18rem;
+    }
+    .sectorank h1{
+        font-size: 4pc;
+        }
+        .boxtext{
+            display: flex;
+           margin-right:3%;
+           justify-content: flex-end;
+           
+           
+        }
+        .textrow{
+            display: flex;
+   
+            padding: 15px;
+        }
+footer{
+    justify-content: space-between;
+    margin-right: 4%;
+}
 }
 
 
 
-@media only screen and (max-width:480px){
+
+@media only screen and (max-width:600px){
 
     body{
-        
+        margin-left:5px;
+     
     }
-    .freensp{
-       background-repeat: no-repeat ;
+    header{
+        flex-direction: column;
+        align-items: center;
+    }
+.conta{
+    margin-right: 5rem;
+    margin-bottom: 1rem;
+}
+    .conta h1{
+        font-size: 47px ;
+ 
+    }
 
-        background-size: 1000%;
+
+    .freensp{ 
+        margin-left:-5px; 
+        margin-right:-150px; 
+        border: 0.3pt solid rgb(11, 180, 11);
+        border-radius: 0;
+       background-repeat: no-repeat ;
+        background: center;
+        background-size: auto;
+        height:auto;
       
     }
+    .borda{
+        display: grid;
+        margin: 1.5rem;
+           justify-items: center;
+           justify-content: space-evenly;
+    grid-template-columns: auto auto;
+    }
+    .borda-text{
+        margin-left: 0.5rem;
+        border: 5px solid lightgreen;
+    }
+    .borda-text .conta{
+        display: flex;
+        margin-right: 1.5rem;
+    }
 
+    .borda img{
+        margin: 0.2rem;
+    }
+    .sectorank img {
+       margin: -5rem;
+        }
+    .sectorank h1{
+        font-size: 3rem;
+        }
+.boxtext{
+    display: flex;
+    justify-content: flex-start;
+}
+.textrow{
+display: grid;
+grid-template-columns: auto auto;
+}
+
+
+        footer{
+        margin: 1rem;
+        justify-content: space-around;
+    }
 }
